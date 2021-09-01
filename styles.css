@@ -1,0 +1,207 @@
+img {
+  max-width: 100%;
+}
+
+#imgsel{
+  border: lightseagreen 2px solid;
+}
+
+h1, h2, h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: lightseagreen;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-align:left;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-align:left;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+  color: gray;
+  text-align:left;
+  font-size: 16px;
+}
+
+p1{
+  color: black;
+  text-align:left;
+  font-size: 16px;
+}
+
+.navbar{
+    position: absolute;
+    right: 30px;
+}
+
+.navbar a{
+  background-color:white;
+}
+
+body {
+  width: 100%;
+  min-height:100%;
+  background-color: lightgray;
+}
+
+.col {
+  width: 100px;
+} 
+
+.homebtn{
+  background-color: white;
+  z-index:2;
+}
+
+.homebtn a{
+  width: 110px;
+  background: lightseagreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 14px;
+  margin: 0px 0px 0px 40px;
+}
+
+.divtop{
+  background-color: white;
+  z-index:2;
+}
+
+.divbdy1{
+  background-color: white;
+  z-index:1;
+  padding: 10px;
+  margin: 5px;
+  font-weight: 600;
+  color: #fff;
+  left: -50px;
+}
+
+.divbdy2{
+  background-color: white;
+  position: absolute;
+  right: 50px;
+  width: 900px;
+  padding: 10px;
+  margin: 5px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.divbdy3{
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.divtable{
+  text-align:center;
+  background-color: white;
+  z-index:2;
+}
+
+.divtablec{
+  text-align:center;
+  width: 600px;
+  height: 400px;
+  background-color: white;
+}
+
+.divbtm {
+  width:100%;
+  bottom:0;
+  background-color: gray;
+  z-index:0;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+/*Styles applied when less than 700 pixels */
+@media (max-width: 800px) {
+  .homebtn{
+    background-color: lightseagreen;
+    z-index:2;
+  }
+  
+  .homebtn a{
+    width: 110px;
+    background: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 14px;
+    margin: 0px 0px 0px 40px;
+  }
+  
+  .divtop{
+    background-color: lightseagreen;
+    z-index:2;
+  }
+  .divbdy1{
+    background-color: white;
+    z-index:1;
+    padding: 10px;
+    margin: 0px;
+    font-weight: 600;
+    color: #fff;
+    left: -50px;
+  }
+  .divbdy2{
+    background-color: white;
+    position: relative;
+    z-index:1;
+    padding: 0px;
+    margin: 50px;
+    font-weight: 600;
+    color: #fff;
+    left: -50px;
+  }
+  
+  .divtable{
+    text-align:center;
+    background-color: white;
+    z-index:1;
+  }
+  
+  .divbtm {
+    width:100%;
+    /* position:absolute; */
+    bottom:0;
+    background-color: white;
+    z-index:0;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+  }
+  body {
+    width: 100%;
+    min-height:100%;
+    background-color: white;
+  }
+}
